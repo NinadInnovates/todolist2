@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List App</title><link rel="preload" as="image" imagesrcset="https://developergtm.in/wp-content/uploads/2024/03/Screenshot-202024-03-23-20094048.png" imagesizes="(max-width: 749px) 100vw, 749px" /><link rel="preload" as="font" href="https://developergtm.in/wp-content/themes/smart-mag/css/icons/fonts/ts-icons.woff2?v3.1" type="font/woff2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="task-input">
+      <ion-icon name="create-outline"></ion-icon>
+      <input type="text" placeholder="Add a New Task + Enter">
+    </div>
+    <div class="controls">
+      <div class="filters">
+        <span class="active" id="all">All</span>
+        <span id="pending">Pending</span>
+        <span id="completed">Completed</span>
+      </div>
+      <button class="clear-btn">Clear All</button>
+    </div>
+    <ul class="task-box"></ul>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
